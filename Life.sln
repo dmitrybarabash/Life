@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life", "Life\Life.csproj", "{22E54BA9-85B1-4892-860C-6B68FB0E8D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Life", "Life\Life.csproj", "{22E54BA9-85B1-4892-860C-6B68FB0E8D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.UnitTests", "Life.UnitTests\Life.UnitTests.csproj", "{968A6BB6-9030-4F62-B809-65252095146F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Life.UnitTests", "Life.UnitTests\Life.UnitTests.csproj", "{968A6BB6-9030-4F62-B809-65252095146F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9AB8D29-FF0C-498F-8111-CEE2C2EA0A17}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{22E54BA9-85B1-4892-860C-6B68FB0E8D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +46,11 @@ Global
 		{968A6BB6-9030-4F62-B809-65252095146F}.Release|x64.Build.0 = Release|Any CPU
 		{968A6BB6-9030-4F62-B809-65252095146F}.Release|x86.ActiveCfg = Release|Any CPU
 		{968A6BB6-9030-4F62-B809-65252095146F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA92F68F-3BFD-4840-A6FA-6D85C35712CF}
 	EndGlobalSection
 EndGlobal
